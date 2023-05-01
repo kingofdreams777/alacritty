@@ -51,13 +51,13 @@ window:
 font:
   size: 18
   normal:
-    family: CodeNewRoman Nerd Font
+    family: Hack Nerd Font
     sylte: Regular
   bold:
-    family: CodeNewRoman Nerd Font
+    family: Hack Nerd Font
     style: Bold
   italic:
-    family: CodeNewRoman Nerd Font
+    family: Hack Nerd Font
     style: Italic
 colors:
   # Default colors
