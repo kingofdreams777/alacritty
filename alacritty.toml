@@ -1,0 +1,175 @@
+[colors.bright]
+black = "0x22212c"
+blue = "0xaa99ff"
+cyan = "0x99ffee"
+green = "0xa2ff99"
+magenta = "0xff99cc"
+red = "0xffaa99"
+white = "0xffffff"
+yellow = "0xffff99"
+
+[colors.cursor]
+cursor = "0xf8f8f2"
+text = "0x454158"
+
+[colors.normal]
+black = "0x22212c"
+blue = "0x9580ff"
+cyan = "0x80ffea"
+green = "0x8aff80"
+magenta = "0xff80bf"
+red = "0xff9580"
+white = "0xf8f8f2"
+yellow = "0xffff80"
+
+[colors.primary]
+background = "0x22212c"
+foreground = "0xf8f8f2"
+
+[colors.selection]
+background = "0x454158"
+text = "0xf8f8f2"
+
+[font]
+size = 12
+
+[font.bold]
+family = "Hack Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Hack Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[[keyboard.bindings]]
+chars = "\u0002I"
+key = "I"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002,"
+key = "Comma"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002s"
+key = "K"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00021"
+key = "Key1"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00022"
+key = "Key2"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00023"
+key = "Key3"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00024"
+key = "Key4"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00025"
+key = "Key5"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00026"
+key = "Key6"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00027"
+key = "Key7"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00028"
+key = "Key8"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00029"
+key = "Key9"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002L"
+key = "L"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002["
+key = "LBracket"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002p"
+key = "LBracket"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002%"
+key = "N"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002\""
+key = "N"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002q"
+key = "Q"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002n"
+key = "RBracket"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = """
+\u001B:w
+"""
+key = "S"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002c"
+key = "T"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002!"
+key = "T"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002x"
+key = "W"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002z"
+key = "Z"
+mods = "Alt"
+
+[shell]
+args = ["-l", "-c", "tmux"]
+program = "/bin/zsh"
+
+[window]
+opacity = 0.85

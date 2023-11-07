@@ -46,10 +46,10 @@ key_bindings:
   - { key: Z, mods: Alt, chars: "\x02\x7a" }
 # Colors (Dracula PRO)
 window:
-  opacity: 0.8
+  opacity: 0.85
 
 font:
-  size: 13
+  size: 12
   normal:
     family: Hack Nerd Font
     sylte: Regular
